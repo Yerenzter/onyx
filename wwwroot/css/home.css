@@ -1,0 +1,39 @@
+body {
+    transition: all 1s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: none;
+}
+
+.zero-origin {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+
+.full-scale {
+    width: 100svw;
+    height: 100svh;
+}
+
+#app-name {
+    font-family: Moonstone;
+}
+
+#message {
+    font-family: Aesthetic;
+    font-size: 2rem;
+    text-wrap: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+#start,
+#content,
+#liwaton {
+    transition: all 0.5s;
+    opacity: 0;
+}
